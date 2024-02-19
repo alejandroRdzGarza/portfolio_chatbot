@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>My Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+    <noscript><link rel="stylesheet" href="noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+        <!-- Intro -->
+        <div id="intro">
+            <h1>My Portfolio</h1>
+            <p>My journey as a software engineering student<a href="https://html5up.net/license"></a>.</p>
+            <!-- <ul class="actions">
+                <li><a class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+            </ul> -->
+        </div>
+        <!-- Header -->
+        <header id="header">
+            <a href="index.html" class="logo">Portfolio</a>
+        </header>
+        <!-- Nav -->
+        <nav id="nav">
+            <ul class="links">
+                <li class="active"><a href="index.html">Portfolio</a></li>
+                <li><a href="aboutMe.html">About me</a></li>
+            </ul>
+            <ul class="icons">
+                <li>Email: a01282990@tec.mx</li>
+                <!-- <li><a href="https://www.linkedin.com/in/alejandro-rodriguez-garza/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/alejandroRdzGarza" class="icon brands fa-github"><span class="label">GitHub</span></a></li> -->
+            </ul>
+        </nav>
+        <!-- Main -->
+        <div id="main">
+            <!-- Featured Post -->
+            <article class="post featured">
+                <header class="major">
+                    <span class="date">My Work</span>
+                    <h2><a href="#">Projects</a></h2>
+                    <p class="box">Here are some of the most relevent projects I have made until now. I wanted to start with the project I am most proud of. I programmed a syntax highlighter 
+                        that works the same way as the highlighters
+                        in IDEs like vs code, Atom, Sublime, etc. To do this, the program first tokenizes 
+                        the inputted python file, then makes use of regular expressions to categorize each type 
+                        of token and depending on the type of token, creates a copy of it in an html 
+                        file in which it is given highlight color with CSS and thus each type of token 
+                        ends up with the specific color of its category. Then you can open the html file in 
+                        a browser and see the same python input file with the text highlighted in colors.</p>
+                </header>
+                <a href="#" class="image main"><img src="imgonline-com-ua-twotoone-BK450RHszyY.jpg" alt="" /></a>
+                <ul class="competencias">
+                    <h3>What i learned</h3>
+                    <li><p>Reading and writing different types of files</p></li>
+                    <li><p>Regular Expressions</p></li>
+                    <li><p>Tokenization</p></li>
+                </ul>
+            </article>
+            <!-- Chatbot Section -->
+            <section id="chatbot-section">
+                <div class="chat-container">
+                    <div class="chat-box" id="chat-box"></div>
+                    <input type="text" id="user-input" placeholder="Type your message...">
+                    <button onclick="sendMessage()">Send</button>
+                </div>
+            </section>
+            <!-- Posts -->
+            <section class="posts">
+                <article>
+                    <header>
+                        <span class="date">Python</span>
+                        <h2><a href="#">Chinese Checkers</a></h2>
+                    </header>
+                    <a href="#" class="image fit"><img src="Screenshot 2023-05-13 at 21.15.38.png" alt="" /></a>
+                    <p class="box">I did a Python project where the goal was to create a fully functional Chinese checkers game that could be played via the terminal. It was my first big project with any programming language and I deepened my knowledge in functions and program design..</p>
+                    <ul class="competencias">
+                        <h3>What i learned</h3>
+                        <li><p>Variables</p></li>
+                        <li><p>Functions</p></li>
+                        <li><p>Libraries/Modules</p></li>
+                        <li><p>For and While Loops</p></li>
+                        <li><p>Arrays</p></li>
+                        <li><p>Conditionals</p></li>
+                    </ul>
+                </article>
+                <!-- Remaining articles are omitted for brevity -->
+            </section>
+            <!-- Footer -->
+            <!-- 						
+                <footer>
+                    <div class="pagination">
+                        <a href="#" class="previous">Prev</a>
+                        <a href="#" class="page active">1</a>
+                        <a href="#" class="page">2</a>
+                        <a href="#" class="page">3</a>
+                        <span class="extra">&hellip;</span>
+                        <a href="#" class="page">8</a>
+                        <a href="#" class="page">9</a>
+                        <a href="#" class="page">10</a>
+                        <a href="#" class="next">Next</a>
+                    </div>
+                </footer> 
+            -->
+            <!-- Footer -->
+            <!--
+                <footer id="footer">
+                    <section>
+                        <form method="post" action="#">
+                            <div class="fields">
+                                <div class="field">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name" />
+                                </div>
+                                <div class="field">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email" />
+                                </div>
+                                <div class="field">
+                                    <label for="message">Message</label>
+                                    <textarea name="message" id="message" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send Message" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                    <section class="split contact">
+                        <section class="alt">
+                            <h3>Address</h3>
+                            <p>1234 Somewhere Road #87257<br />
+                            Nashville, TN 00000-0000</
